@@ -15,7 +15,7 @@ D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62527
+63084
 Successfully changed project path to: D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25956] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 2165061430 [EditorId] 2165061430 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16104] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 3040148709 [EditorId] 3040148709 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25956] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 2165061430 [EditorId] 2165061430 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16104] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 3040148709 [EditorId] 3040148709 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path D:/Program Files/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002427 seconds.
-- Loaded All Assemblies, in  0.332 seconds
+Registered in 0.002939 seconds.
+- Loaded All Assemblies, in  0.333 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.273 seconds
-Domain Reload Profiling: 604ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 592ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (136ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (134ms)
 				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (273ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (259ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (210ms)
+		SetupLoadedEditorAssemblies (195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (137ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 604ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.587 seconds
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 1387ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (359ms)
-		LoadAssemblies (274ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (280ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (174ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (133ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (801ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (650ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (538ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3557.
-Memory consumption went from 122.3 MB to 122.2 MB.
-Total: 3.262300 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.789300 ms  DeleteObjects: 0.120300 ms)
+Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3557.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 2.889300 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.449900 ms  DeleteObjects: 0.114700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,12 +178,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3557.
 Memory consumption went from 73.6 MB to 73.6 MB.
-Total: 2.501000 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.173100 ms  DeleteObjects: 0.015600 ms)
+Total: 3.045600 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.467600 ms  DeleteObjects: 0.023500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -199,3 +199,80 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 760145.225560 seconds.
+  path: Assets/Stormtrooper/Stormtrooper.dae
+  artifactKey: Guid(cc2588db9d959dd42971c5511a24fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stormtrooper/Stormtrooper.dae using Guid(cc2588db9d959dd42971c5511a24fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade2625e351b3d4140a8cbe95622ec2') in 0.191566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 862.046512 seconds.
+  path: Assets/source/E-10.fbx
+  artifactKey: Guid(0377a2b53ff009e419bbad0a0f04854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/E-10.fbx using Guid(0377a2b53ff009e419bbad0a0f04854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f22c506cd1bd02680c68d100709a88') in 0.038245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.568400 seconds.
+  path: Assets/textures/E-10_Lower_BaseColor_JPG.jpg
+  artifactKey: Guid(46929342b23446f4894f321311b0f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-10_Lower_BaseColor_JPG.jpg using Guid(46929342b23446f4894f321311b0f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f2504a22133393994a33f6e13657b') in 0.038451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/textures/E-11_Lower_Emissive.jpg
+  artifactKey: Guid(27ffe3de63df90c468b0c7ec06d5e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Lower_Emissive.jpg using Guid(27ffe3de63df90c468b0c7ec06d5e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73742bcb592596d0740c03b4442f0deb') in 0.038889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/textures/E-11_Lower_Roughness.png
+  artifactKey: Guid(1467e5ab9ad13ec489d06b8c0ff37f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Lower_Roughness.png using Guid(1467e5ab9ad13ec489d06b8c0ff37f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24250b91f125d32793e0e9a089369c5') in 0.037956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/textures/E-11_Upper_Mixed_AO.png
+  artifactKey: Guid(235186471722a174a8194451846e1758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Upper_Mixed_AO.png using Guid(235186471722a174a8194451846e1758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17e2fc2c63f7ec2cd3f64105593c03') in 0.029879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/textures/E-11_Lower_Metallic.png
+  artifactKey: Guid(c6039a693dd85e941b5cb948b1488881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Lower_Metallic.png using Guid(c6039a693dd85e941b5cb948b1488881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bf14424671d7f0fc8db17600f0469') in 0.033529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/textures/E-11_Upper_Metallic.png
+  artifactKey: Guid(71073e7f438507d4699e991d80c8dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Upper_Metallic.png using Guid(71073e7f438507d4699e991d80c8dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56aac090ba9337db89ad2a4740c5aff') in 0.025634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/textures/E-11_Upper_Base_Color.jpg
+  artifactKey: Guid(a98208916dbe50241a5df5ebff4b3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures/E-11_Upper_Base_Color.jpg using Guid(a98208916dbe50241a5df5ebff4b3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502f9561f86967e31bad943ea512b536') in 0.022024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -15,7 +15,7 @@ D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63084
+56914
 Successfully changed project path to: D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Info DEC CEGEP/STAGES/StageCegep/JeuStarWars
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16104] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 3040148709 [EditorId] 3040148709 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [35852] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 2253360897 [EditorId] 2253360897 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16104] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 3040148709 [EditorId] 3040148709 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35852] Host "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 2253360897 [EditorId] 2253360897 [Version] 1048832 [Id] WindowsEditor(7,Charles-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path D:/Program Files/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002939 seconds.
-- Loaded All Assemblies, in  0.333 seconds
+Registered in 0.002428 seconds.
+- Loaded All Assemblies, in  0.343 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.259 seconds
-Domain Reload Profiling: 592ms
-	BeginReloadAssembly (109ms)
+Domain Reload Profiling: 603ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (108ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (118ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (259ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (260ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
+		SetupLoadedEditorAssemblies (197ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,77 +115,56 @@ Domain Reload Profiling: 592ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.563 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.638 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.714 seconds
-Domain Reload Profiling: 1277ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.807 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (280ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (306ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (116ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (715ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (807ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (583ms)
+		SetupLoadedEditorAssemblies (656ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (486ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3557.
-Memory consumption went from 122.3 MB to 122.3 MB.
-Total: 2.889300 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.083000 ms MarkObjects: 2.449900 ms  DeleteObjects: 0.114700 ms)
+Memory consumption went from 122.7 MB to 122.7 MB.
+Total: 4.628100 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.113400 ms MarkObjects: 4.037900 ms  DeleteObjects: 0.124500 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3557.
-Memory consumption went from 73.6 MB to 73.6 MB.
-Total: 3.045600 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.467600 ms  DeleteObjects: 0.023500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,76 +180,236 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 760145.225560 seconds.
-  path: Assets/Stormtrooper/Stormtrooper.dae
-  artifactKey: Guid(cc2588db9d959dd42971c5511a24fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stormtrooper/Stormtrooper.dae using Guid(cc2588db9d959dd42971c5511a24fa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cade2625e351b3d4140a8cbe95622ec2') in 0.191566 seconds
+  Time since last request: 1015845.182393 seconds.
+  path: Assets/shield.blend
+  artifactKey: Guid(8372fb263a4290f45b3606e69ca7ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shield.blend using Guid(8372fb263a4290f45b3606e69ca7ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1f237ac79b62461c7e32fc7289e71a') in 0.149336 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 262
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 862.046512 seconds.
-  path: Assets/source/E-10.fbx
-  artifactKey: Guid(0377a2b53ff009e419bbad0a0f04854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/source/E-10.fbx using Guid(0377a2b53ff009e419bbad0a0f04854a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f22c506cd1bd02680c68d100709a88') in 0.038245 seconds
+  Time since last request: 394.585603 seconds.
+  path: Assets/Materials/E-10_Lower_BaseColor_JPG.mat
+  artifactKey: Guid(e23cf193c9631bc4a90b9b9368f0e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/E-10_Lower_BaseColor_JPG.mat using Guid(e23cf193c9631bc4a90b9b9368f0e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8730492bc22ac73450d955fe0ab375') in 0.017330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 77.270563 seconds.
+  path: Assets/Stormtrooper
+  artifactKey: Guid(9e1c612ab6a42d54da80e7baaa6abfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stormtrooper using Guid(9e1c612ab6a42d54da80e7baaa6abfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cf567fe966f75efe56f2001254e2e7') in 0.000471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.366401 seconds.
+  path: Assets/textures
+  artifactKey: Guid(ac0f91de462f1924788c5be4ddc33f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/textures using Guid(ac0f91de462f1924788c5be4ddc33f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e133e0e75df3d81fae81281460388f30') in 0.000416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.325888 seconds.
+  path: Assets/source
+  artifactKey: Guid(3e04ff1b228f58d4292fe6774608f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source using Guid(3e04ff1b228f58d4292fe6774608f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b9c4cd869a69ceb80f3e32d455473a') in 0.000422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.385645 seconds.
+  path: Assets/laser.blend
+  artifactKey: Guid(998c81b3ce49e6a45a410297110a7765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laser.blend using Guid(998c81b3ce49e6a45a410297110a7765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77097faa72709c31ce5476b74b2b98e') in 0.036468 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 5.568400 seconds.
-  path: Assets/textures/E-10_Lower_BaseColor_JPG.jpg
-  artifactKey: Guid(46929342b23446f4894f321311b0f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-10_Lower_BaseColor_JPG.jpg using Guid(46929342b23446f4894f321311b0f5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f2504a22133393994a33f6e13657b') in 0.038451 seconds
+  Time since last request: 60.662737 seconds.
+  path: Assets/laser.blend
+  artifactKey: Guid(998c81b3ce49e6a45a410297110a7765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laser.blend using Guid(998c81b3ce49e6a45a410297110a7765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0938e3afe40a40da4ded9a4b864d3179') in 0.024837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.289482 seconds.
+  path: Assets/source/sci fi gun model 1.fbx
+  artifactKey: Guid(7bc0311b729aa4147892eb67adf400fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/source/sci fi gun model 1.fbx using Guid(7bc0311b729aa4147892eb67adf400fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff409d8635647f5107c850ca75a8b4ad') in 1.083753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 314
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat
+  artifactKey: Guid(baab5468dbdb114448b307048c9006a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Cart Mat.mat using Guid(baab5468dbdb114448b307048c9006a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583d13d2351271f261fec1d9cbe2291') in 0.037121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.066663 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat
+  artifactKey: Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Pallet Mat.mat using Guid(e2f46f807b3b19a4491e113702211cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493e7af8156c66c778bcd97cdbd8ea9f') in 0.041238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Shelf Trans Mat.mat
+  artifactKey: Guid(b95048f5a5f84304d96d6f5e61414ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Shelf Trans Mat.mat using Guid(b95048f5a5f84304d96d6f5e61414ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b03a55254e3eefe73d209ebec4f045e') in 0.043217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat
+  artifactKey: Guid(1abdbba98f8ab9e4c99e138c1480ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Shelf Mat.mat using Guid(1abdbba98f8ab9e4c99e138c1480ceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835ab5384013c4d0cf44c7969bc2af54') in 0.023043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corridor Entrance.fbx
+  artifactKey: Guid(909005b28345a69478157c4b0dccc3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Walls/Wall Corridor Entrance.fbx using Guid(909005b28345a69478157c4b0dccc3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5debc58f14adeab85f9c0742cc808986') in 0.023771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.322294 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Sign Red.mat
+  artifactKey: Guid(104dfe4e9eaf15e42b9645fc2a6f54eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Sign Red.mat using Guid(104dfe4e9eaf15e42b9645fc2a6f54eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd530bb21956be15cc7b6f5a485da2f60') in 0.017385 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004118 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Structure Trans Mat.mat
+  artifactKey: Guid(8daecc76e81cf114c9854e9ee5a2526a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Structure Trans Mat.mat using Guid(8daecc76e81cf114c9854e9ee5a2526a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38cbd4f6e8883cf299037e139189c36') in 0.021355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Stairs Mat.mat
+  artifactKey: Guid(8c4847c8d50a57747abfb7f8b3da7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Stairs Mat.mat using Guid(8c4847c8d50a57747abfb7f8b3da7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1662e9782bbcc4320dcd657f3765716b') in 0.024905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Vent Trans Mat.mat
+  artifactKey: Guid(a9460b9bd02e92549826c6b8a736db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Vent Trans Mat.mat using Guid(a9460b9bd02e92549826c6b8a736db94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f616582e7dcf9f46296ffa2e0537da') in 0.024956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Walls.mat
+  artifactKey: Guid(d893f707bc253a84aa1e7d87361c830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Walls.mat using Guid(d893f707bc253a84aa1e7d87361c830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65b63a6d1de6e0c7048be23c18c3aed') in 0.021167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Structure Props Mat.mat
+  artifactKey: Guid(29be84a8421dddd4481c7c1a37d5dc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Structure Props Mat.mat using Guid(29be84a8421dddd4481c7c1a37d5dc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b4581356bf3d8c10b99e500257ee23') in 0.022844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Materials/Windows.mat
+  artifactKey: Guid(eb79ec0657b7d6c48942befc5d7b2c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Materials/Windows.mat using Guid(eb79ec0657b7d6c48942befc5d7b2c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32fe041f907c4a276b6e64268493cb6') in 0.035096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27.223334 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Corner.fbx
+  artifactKey: Guid(8dafe4d8ed6a7ee45b9201a1ddabedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Corner.fbx using Guid(8dafe4d8ed6a7ee45b9201a1ddabedb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae90bbb98aed155652edda938a98be') in 0.042586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Pillar 01.fbx
+  artifactKey: Guid(98b51d8bcf7807946b1d35c43fa9423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Pillar 01.fbx using Guid(98b51d8bcf7807946b1d35c43fa9423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb3ca2d134043f3296e5dde80bf3711') in 0.037950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Pillar Rails.fbx
+  artifactKey: Guid(5a4645c9d2fbfc64a8e636733c22e176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Catwalk/Catwalk Pillar Rails.fbx using Guid(5a4645c9d2fbfc64a8e636733c22e176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d860ee783ea922273097d7d31e73353') in 0.036588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Closed.fbx
+  artifactKey: Guid(b28dd70a689b2b649832f43119d5b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Ceiling/Ceiling Closed.fbx using Guid(b28dd70a689b2b649832f43119d5b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3edee24681d8bfd9145a2451f071c0') in 0.032709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx
+  artifactKey: Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner Lights.fbx using Guid(4ce6b0c7f72eca64281331f29fa951bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b3a5b54be59e637d56c789547a30f2') in 0.206269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide.fbx
+  artifactKey: Guid(0c7a4f4b9bbf44841812ab47fae3b382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide.fbx using Guid(0c7a4f4b9bbf44841812ab47fae3b382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cecf25eb532dbb9bfe39d02ef4d1d7') in 0.120298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner.fbx
+  artifactKey: Guid(cae5fd5b00916314594b00729f56646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Corner.fbx using Guid(cae5fd5b00916314594b00729f56646b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aab73492d94389f8f331e672a0d6984') in 0.106725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/textures/E-11_Lower_Emissive.jpg
-  artifactKey: Guid(27ffe3de63df90c468b0c7ec06d5e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Lower_Emissive.jpg using Guid(27ffe3de63df90c468b0c7ec06d5e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73742bcb592596d0740c03b4442f0deb') in 0.038889 seconds
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee.fbx
+  artifactKey: Guid(2da2bfe86131738449f1d97919e04a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Tee.fbx using Guid(2da2bfe86131738449f1d97919e04a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f740812f0731d8acd1e08db8ed7b33e8') in 0.102701 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/textures/E-11_Lower_Roughness.png
-  artifactKey: Guid(1467e5ab9ad13ec489d06b8c0ff37f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Lower_Roughness.png using Guid(1467e5ab9ad13ec489d06b8c0ff37f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24250b91f125d32793e0e9a089369c5') in 0.037956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/textures/E-11_Upper_Mixed_AO.png
-  artifactKey: Guid(235186471722a174a8194451846e1758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Upper_Mixed_AO.png using Guid(235186471722a174a8194451846e1758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce17e2fc2c63f7ec2cd3f64105593c03') in 0.029879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 38
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/textures/E-11_Lower_Metallic.png
-  artifactKey: Guid(c6039a693dd85e941b5cb948b1488881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Lower_Metallic.png using Guid(c6039a693dd85e941b5cb948b1488881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bf14424671d7f0fc8db17600f0469') in 0.033529 seconds
+  path: Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner Windows.fbx
+  artifactKey: Guid(86e0494e75e2b6243960cc0cbf7c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Art/Meshes/Structures/Corridors/Corridor Wide Corner Windows.fbx using Guid(86e0494e75e2b6243960cc0cbf7c207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f1c970d6b01ebc55d45c022ae8f54') in 0.124934 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/textures/E-11_Upper_Metallic.png
-  artifactKey: Guid(71073e7f438507d4699e991d80c8dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Upper_Metallic.png using Guid(71073e7f438507d4699e991d80c8dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56aac090ba9337db89ad2a4740c5aff') in 0.025634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/textures/E-11_Upper_Base_Color.jpg
-  artifactKey: Guid(a98208916dbe50241a5df5ebff4b3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/E-11_Upper_Base_Color.jpg using Guid(a98208916dbe50241a5df5ebff4b3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502f9561f86967e31bad943ea512b536') in 0.022024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 60
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
 AssetImportWorker is now disconnected from the server
