@@ -42,6 +42,8 @@ public class Ennemi : MonoBehaviour
 
         if (Physics.Raycast(laserPos.position, transform.TransformDirection(Vector3.forward), out hit, 20))
         {
+            Debug.DrawRay(laserPos.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+
             if (hit.collider.gameObject.CompareTag("Player"))
             {
                 GameObject temp = Instantiate(laser, laserPos.position, Quaternion.identity);

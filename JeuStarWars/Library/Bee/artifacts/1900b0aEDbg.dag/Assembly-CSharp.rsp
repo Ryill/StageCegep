@@ -359,6 +359,7 @@
 "Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs"
 "Assets/Scripts/Ennemi.cs"
 "Assets/Scripts/Laser.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
